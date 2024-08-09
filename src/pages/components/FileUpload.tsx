@@ -10,7 +10,7 @@ interface FileUploadProps {
 const FileUpload: React.FC<FileUploadProps> = (
     {
         onFileSelect,
-        acceptedFileTypes = '.obj,.gltf,.glb',
+        acceptedFileTypes = '.obj,.gltf,.glb,.stl',
         children,
     }
 ) => {
